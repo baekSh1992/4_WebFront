@@ -51,11 +51,11 @@
         <h3>th 태그</h3> <!-- 테이블의 맨위, 제목칸으로써 굵은글씨 출력 (가운데 정렬)-->
         - Table Header의 약자로 컬럼명을 표시하는 용도의 태그
         - 기본 성질은 td 태그와 같으나
-            추가적으로 굵은 글씨, 가운데 정렬이 이루어짐.
+            * 추가적으로 굵은 글씨, 가운데 정렬이 이루어짐 *
     </pre>
 
     <pre>
-        <h3>caption 태그</h3> <!-- 테이블에 부가설명 태그-->
+        <h3>caption 태그</h3> <!-- 테이블에 부가설명 태그--> <!-- 사진삽화 등에 붙인 설명 -->
         - 테이블의 제목이나 설명 내용을 추가하는 태그
     </pre>
 
@@ -67,7 +67,7 @@
 
         지정된 값이 따라 테두리 굵기(px) 지정
     -->
-    <table border="10">
+    <table border="50px">
         <caption>웹 브라우저의 종류</caption>
 
         <!-- tr*4>td*3 -->
@@ -115,30 +115,31 @@
         - height : 높이
     -->
     <table border="1">
-    <tr>
-        <th width="80px">이름</th>
-        <td width="210px"></td>
-        <th width="140px" height="140" rowspan="2" >사진</th>
-    </tr>
-    <tr>
-        <th>연락처</th>
-        <td></td>
-        <!-- <td></td> -->
-    </tr>
-    <tr>
-        <th height="35px">주소</th>
-        <td colspan="2"></td>
-        <!-- <td></td> -->
-    </tr>
-    <tr>
-        <th height="140px">자기소개</td>
-        <td colspan="2"></td>
-        <!-- <td></td> -->
-    </tr>
+        <tr>
+            <th width="80px">이름</th>
+            <td width="210px"></td>
+            <th width="140px" height="140" rowspan="2" >사진</th>
+        </tr>
+        <tr>
+            <th>연락처</th>
+            <td></td>
+            <!-- <td></td> -->
+        </tr>
+        <tr>
+            <th height="35px">주소</th>
+            <td colspan="2"></td>
+            <!-- <td></td> -->
+        </tr>
+        <tr>
+            <th height="140px">자기소개</td>
+            <td colspan="2"></td>
+            <!-- <td></td> -->
+        </tr>
+    
+    </table>
 
-</table>
-
-    <hr> <hr>
+    <br>
+    <hr> <br> <hr>
     <br>
     <h2>테이블 구조 설정 태그</h2>
     <pre>
@@ -158,30 +159,28 @@
                 <th>주소</th>
             </tr>
         </thead>
-
         
+
         <tbody>
             <tr>
                 <td>홍길동</td>
                 <td>20</td>
                 <td>서울시 중구</td>
             </tr>
-        </tbody>
-        <tbody>
+
             <tr>
                 <td>김길동</td>
                 <td>25</td>
                 <td>경기도 부천시</td>
             </tr>
-        </tbody>
-        <tbody>
+
             <tr>
                 <td>박철수</td>
                 <td>27</th>
                 <td>서울시 구로구</td>
             </tr>
         </tbody>
-
+       
 
         <tfoot>
             <tr>
@@ -189,9 +188,6 @@
                 <th>3명</th>
             </tr>
         </tfoot>
-
     </table>
-
-
 </body>
 </html>
