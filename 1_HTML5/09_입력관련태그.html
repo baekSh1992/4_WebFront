@@ -272,14 +272,14 @@
     <!--주소에 # 기호를 작성하면 주소가 정해지지 않았다는 뜻으로
     현재  페이지로 제출됨 -->
     <form action="#" >
-        <textarea style="background-color:coral" rows="5" cols="70" 
+        <textarea rows="5" cols="70" 
         placeholder="placeholder작성 가능 &#13;&#10;다음 줄 내용 &#13;&#10;마크업언어 오반데?"
         name="ta"
-        style="resize:none">
+        style="resize:none">  <!-- 사이즈 바꾸는걸 금지(텍스트 우측하단 빗금 없어짐)-->
 제목 : 
 내용 : 
 작성자 :
-    </textarea> <!-- 사이즈 바꾸는걸 금지(텍스트 우측하단 빗금 없어짐)-->
+    </textarea>
         <!-- textarea는 pre태그와 같이 작성된 내용이 그대로 보여짐 -->
 
         <!--  &#13;&#10; : 마크업 언어에서 줄 바꿈 문자(<br>)-->
@@ -330,3 +330,4 @@
     -->
 </body>
 </html>
+
