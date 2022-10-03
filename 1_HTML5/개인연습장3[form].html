@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 속성</title>
+</head>
+<body>
+    <h1>키우고 싶은 동물 고르기</h1>
+    <form action="exam.php" method="post">
+        <input type="text" placeholder="NAME" name="name"> <br>
+        <select name="pet">
+            <option value="dog">강아지</option>
+            <option value="cat">고양이</option>
+            <option value="parrot">앵무새</option>
+        </select>
+        <br>
+        <input type="submit" value="전송">
+    </form>
+</body>
+</html>
+
+<meta> 태그 속성 종류
+    charset : 문자 인코딩에 대한 요약 정보를 기입하는 속성이다.
+              문자 인코딩이란 한글을 표시하기 위해 문자 세트를 
+              지정하는 작업으로, 영문과 한글을 모두 사용하기 위해
+              UTF-8방식을 사용하는 것이 좋다.
+
+    http-equiv : 콘텐츠 속성의 정보/값에 대한 HTTP헤더를 제공한다.
+                 HTTP란 인터넷에서 데이터를 주고 받을 수 있는 프로토콜이다.
+
+    name : name속성을 이름으로, content속성을 값으로 하여 문서 정보를
+            이름+값 쌍의 형태로 제공할 때 사용할 수 있다.
+
