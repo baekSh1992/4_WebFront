@@ -117,5 +117,6 @@
     border: 10px solid black;
     padding: 100px;
 
-    box-sizing: border-box; /* 이것이 핵심! (개발자 모드 보며 박스 크기 조절할 필요 없음) */
+    box-sizing: border-box;
+     /* 이것이 핵심! (개발자 모드 보며 박스 크기 조절할 필요 없음) */
 }
