@@ -1,0 +1,121 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+}
+
+
+/* content 영역 */
+.content{
+    width: 150px;
+    height: 150px;
+
+    /*  width /  height 속성은
+        기본적으로 content 영역의 크기를 지정하는 속성
+     */
+}
+
+/* border 영역 */
+.border{
+    /* border : 10px solid red; */
+    border-width: 10px; /* 모든 테두리 두께 */
+    border-style: solid; /* 모든 테두리 모양 */
+    border-color: red; /* 모든 테두리 색상 */
+    
+
+    /* border, padding, margin은
+    상, 하, 좌, 우 각각의 방향에 따라 별도로 스타일 지정이 가능
+    */
+    
+    border-top: 20px solid blue;
+
+    border-right: 5px dotted green;
+
+    border-bottom: 10px double yellow;
+
+    border-left: 15px dashed red;
+    /* 보더-스타일 중 inset, outset은 양각, 음각 빛의 그림자 표현 */
+}
+
+/* padding 영역 */
+.padding{
+    padding: 30px;
+    /* content와 border 사이 간격을 상, 하, 좌, 우 30px 벌림 */
+
+    /* padding-방향 : 지정된 방향의 padding 크기 지정 */
+    
+    /* padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 70px;
+    padding-left: 20px; */
+
+    /* padding 속성 사용법 margin도 동일( 위처럼 일일히 지정하지 않고 쓰는 방법 )
+
+        padding : 값1;  -> 상우하좌(시계방향) 모든 방향을 값1 만큼의 크기로 지정
+
+        padding : 값1   값2; 
+                  상하  좌우
+
+        padding : 값1   값2  값3; 
+                  상   좌우   하
+
+        padding : 값    값2   값3  값4;
+                  상    우    하   좌
+     */
+
+     padding : 100px 50px 20px 30px;
+}
+
+/* margin 영역 */
+.margin{
+    margin: 50px;
+    
+    /* block형식의 요소는 수직분할을 하고 남는 부분을 모두 margin으로 채우고 있었다.. 
+    
+        + margin사용시 html 문서 좌측에 요소가 없어도 간격이 벌어지는 이유는 <body>태그 때문이다.
+    */
+}
+
+#m1{
+    margin: auto;
+    /* margin: auto;
+        - 자동으로 다른 요소와의 간격을 조정
+        (좌우 기준 중앙으로 유지, 상하는 다른 요소를 가릴수 있어서 미적용)
+        - 보통 가로 축 가운데 정렬시 사용
+    */
+}
+
+#m2{
+    margin-top : 100px;
+    /* 두 요소 사이에 모두 margin이 존재하는 경우
+       margin의 값이 더 큰 쪽으로 적용이 된다.
+     */
+}
+
+
+/* box-sizing */
+#test-box{
+    background-color: skyblue;
+
+
+
+    /* 기본적으로 content 영역의 크기를 나타냄 */
+    width: 80px;
+    height: 80px;
+
+    border: 10px solid black;
+    padding: 100px;
+}
+
+/* content크기 계산 안하는 방법 */
+#test-box2{
+    background-color: burlywood;
+
+    width: 300px;
+    height: 300px;
+
+    border: 10px solid black;
+    padding: 100px;
+
+    box-sizing: border-box; /* 이것이 핵심! (개발자 모드 보며 박스 크기 조절할 필요 없음) */
+}
