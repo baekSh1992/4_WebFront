@@ -56,9 +56,9 @@
 /* main-axis 방향으로 item이 차지하는 크기의 비율을 지정하는 속성 */
 
 .b-150px{ flex-basis: 150px;}
-.b-10p  {flex-basis: 10%;}
-.b-25p  {flex-basis: 25%;}
-.b-50p  {flex-basis: 50%;}
+.b-10p  { flex-basis: 10%;}
+.b-25p  { flex-basis: 25%;}
+.b-50p  { flex-basis: 50%;}
 
 
 
