@@ -54,7 +54,7 @@ img{
 /* 가로 방향 확대/축소 */
 .trans-x-scale-2d:hover{
     transform: scaleX(2); /* 가로 방향으로 2배만큼 확대 */
-    margin : 125px
+    margin : 10px
 }
 
 /* 세로 방향 확대/축소 */
@@ -67,14 +67,18 @@ img{
 
 /* 요소 확대/축소 */
 .trans-scale-2d:hover{
-    transform: scale(1.2, 1.2);
+    transform: scale(1.5, 1.5);
                   /* x축, y축 */
 }
 
-/* 요소 회전 */
+
+
+
+
 /* rotate(각도deg) */
+/* 요소 회전 */
 .trans-rotate:hover{
-    transform: rotate(15deg);
+    transform: rotate(-20deg);
     /* +는 시계방향, -는 반시계 */
 }
 
@@ -84,7 +88,7 @@ img{
 /* x,y,z 축 이동 */
 .trans-3d:hover{
     /* perspective(관점, 원근법) : 원근법 적용 
-        perspective(길이)
+        translate3d(길이)
          - 길이는 원근법 적용 거리
     */
 
@@ -123,7 +127,7 @@ img{
 .box{
     width: 100px;
     height: 100px;
-    border: 1px solid black;
+    border: 1px solid blue;
     background-color: deeppink;
 
     /* 변형 기간(변형 되는데 걸리는 시간 지정 */
@@ -136,7 +140,7 @@ img{
 
 
 .test2{
-    transition-duration: 10s;
+    transition-duration: 3s;
 }
 
 .test2:hover{
@@ -164,5 +168,6 @@ img{
 }
 
 .test4:hover{
-    transform: translateX(100px) rotate(90deg);
+    transform: translateX(300px) rotate(720deg);
+    /* translate3d(125px, -350px, 1px) 3d도 된다 */ 
 }
