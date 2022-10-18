@@ -1,0 +1,18 @@
+main{
+    margin: auto; 
+}
+
+/* 로그인ㅣ예약조회ㅣ회원가입 */
+#signUp-find-area > *{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: lighter;
+    float: right;
+    margin: 8px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+#logo{
+    text-align: center;
+}
