@@ -97,7 +97,7 @@ input[name='fruits']:checked{
 #test-div2 > input:enabled{background-color: yellowgreen;}
 
 /* 비활성화된 상태의 요소를 선택하는 :disabled */
-#test-div2 > input:disabled{background-color: lightsalmon;}
+#test-div2 > input:disabled{background-color: red;}
 
 
 
@@ -149,3 +149,4 @@ input[name='fruits']:checked{
 }
 
 .test-4{font-size: 30px;}
+
