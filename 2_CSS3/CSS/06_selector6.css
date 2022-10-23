@@ -8,7 +8,7 @@
 }
 
 
-/* 5순위 : 태그 선택자 */
+/* 1순위 : !important; 선택자 */
 div{
     width: 200px;
     height: 200px;
