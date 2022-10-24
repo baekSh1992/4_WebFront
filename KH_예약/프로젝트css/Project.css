@@ -1,3 +1,27 @@
-home::before{
-    break-before: ;
+.container{
+   /* display: flex; */
+   box-sizing: border-box;
+   margin: 0px;
+   padding: 0px;
 }
+
+.path{
+    display: inline-block;
+}
+
+.path #home{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+#qna{
+    font-size: 14px;
+}
+
+
+.sub_img{
+    width: 2000px;
+    height: 185px;
+}
+

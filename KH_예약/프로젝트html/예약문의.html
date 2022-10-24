@@ -5,20 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>예약문의 - Hidden Cliff Hotel and Nature</title>
+
+    <link rel="stylesheet" href="/KH_예약/프로젝트css/Project.css">
 </head>
 <body>
-<div>
+<div class="container">
     <div class="sub_img"></div>
     <div class="path">
         <ol>
-            <li class="path1">
-                <a href="https://www.hiddencliff.kr/main/main.html">HOME</a>
+            <li class ="path">
+                <a href="https://www.hiddencliff.kr/main/main.html" id="home">HOME</a>
+
             </li>
-            <li class="path2">Q&A</li>
+            <li class ="path" id="qna">> Q&A</li>
             </li>
         </ol>
     </div>
-    <div class="sun_title"><h1>예약문의</h1></div>
+    <div class="sub_title"><h1>예약문의</h1></div>
     <div>
     <form name="contact_frm" id="contact_frm" method="" action="">
         <div class="tb1">
@@ -26,23 +29,23 @@
                 <span class="tb1_tail">※ 모든 항목은 필수 입력 사항입니다.
                 </span>
             </h2>
-        <table border="1px" >
+        <table>
             <colgroup>
                 <col style="width: 17%;">
                 <col style="width: 83;">
             </colgroup>
             <tbody>
             <tr>
-                <th><label for="info_name">성명</label></th>
+                <th class="tb-border"><label for="info_name">성명</label></th>
                 <td><input type="text" id="info_name" style="width: 350px;" maxlength="10" ></td>
             </tr>
             <tr>
-                <th><label for="info_tel">휴대폰</label></th>
+                <th class="tb-border"><label for="info_tel">휴대폰</label></th>
                 <td><input type="text" id="info_tel" style="width: 105px;"> - <input type="text" style="width: 105px;">            
                     - <input type="text" style="width: 105px;"></td>
             </tr>
             <tr>
-                <th><label for="info_email">이메일</label></td>
+                <th class="tb-border"><label for="info_email">이메일</label></td>
                 <td><input type="text" id="info_email" width="167px" maxlength="25">
                      @ <input type="text" width="167px" maxlength="25"> <select name="email">
                         <option value="">직접입력</option>
@@ -56,19 +59,19 @@
                 </td>
             </tr>
             <tr>
-                <th><label for="info_company">업체명</label></th>
+                <th class="tb-border"><label for="info_company">업체명</label></th>
                 <td><input type="text" id="info_company" style="width: 680px;" maxlength="50"></td>
             </tr>
             <tr>
-                <th><label for="info_cnt">인원수</label></th>
+                <th class="tb-border"><label for="info_cnt">인원수</label></th>
                 <td><input type="text" id="info_cnt" style="width: 680px;" maxlength="50"></td>
             </tr>
             <tr>
-                <th><label for="info_date">행사일시</label></th>
+                <th class="tb-border"><label for="info_date">행사일시</label></th>
                 <td><input type="text" id="info_date" style="width: 680px;" maxlength="50"></td>
             </tr>
             <tr>
-                <th><label for="info_text">내용</label></th>
+                <th class="tb-border"><label for="info_text">내용</label></th>
                 <td><textarea name="" id="info_text" cols="45" rows="10" maxlength="300" style="width: 680px;"></textarea></td>
             </tr>
         </tbody>
