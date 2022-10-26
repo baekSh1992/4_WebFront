@@ -13,68 +13,129 @@
     <div id="header-area">include-head</div>
     <div id="head-img" ></div>
     
-    <div class="bsh-home-qna">
-        <ol>
-            <li>
-                <a href="https://www.hiddencliff.kr/main/main.html">home</a> 
-            </li>
-            <li class="bsh-home-qna2">> &nbsp;Q&A</li>
-        </ol>
-    </div>
-    <div class="bsh-yeyak">예약문의</div>
-
-    <div class="bsh-vlftn">※ 모든 항목은 필수 입력 사항입니다.</div>
-    <form action="#" class="bsh-main">
-        <div class="bsh-main1"></div>
-        <div class="bsh-main2">
-            <table class="bsh-tb" border="1px">
-                <tr>
-                    <th>
-                        <label for="info_name">성명</label>
-                    </th>
-                <td><input type="text" maxlength="10" id="info_name" size="30"></td>
-                    
-                </tr>
-                <tr>
-                    <th>휴대폰</td>
-                    <td><input type="tel" maxlength="4">-<input type="tel" maxlength="4">-<input type="tel" maxlength="4">
-                    </td>
-                </tr>
-                <tr>
-                    <th class="bsh-info-email">이메일</th>
-                    <td><input type="email" id="email" maxlength="25"> @ <input type="email" id="email2" maxlength="25">
-                    <select name="email" id="">
-                        <option value="">직접입력</option>
-                        <option value="naver.com">naver.com</option>
-                        <option value="gmail.com">gmail.com</option>
-                        <option value="nate.com">nate.com</option>
-                        <option value="hotmail.com">hotmail.com</option>
-                        <option value="dreamwiz.com">dreamwiz.com</option>
-                        <option value="freechal.com">freechal.com</option>
-                    </select>
-                    </td>
-                </tr>
-                <tr>
-                    <th>업체명</th>
-                    <td><input type="text" maxlength="50"></td>
-                </tr>
-                <tr>
-                    <th>인원수</td>
-                    <td><input type="text" maxlength="50"></td>
-                </tr>
-                <tr>
-                    <th>행사일시</th>
-                    <td><input type="text" maxlength="50"></td>
-                </tr>
-                <tr>
-                    <th id="content">내용</td>
-                    <td><input type="text"></td>
-                </tr>
-            </table>
-            <div class="bsh-tnwlq"></div>
+    <div class="bsh-main">
+        <div class="bsh-path">
+            <ol>
+                <li class="bsh-path1">
+                    <a href="https://www.hiddencliff.kr/main/main.html">home</a>
+                </li>
+                <li class="bsh-path2">> Q&A</li>
+            </ol>
         </div>
-        <div class="bsh-main3"></div>
-    </form>
+
+        <div class="bsh-main-title">
+            <h1>예약문의</h1>
+        </div>
+
+        <div class="bsh-section">
+            <div class="bsh-warning">※ 모든 항목은 필수 입력 사항입니다.</div>
+            
+            <form name="bsh-frm" id="bsh-frm" method="#" action="#">
+                <table class="bsh-tb1" >
+                    <tr>
+                        <th class="inf-name"><label for="info-name">성명</label></th>
+                        <td class="inf-name2">
+                            <input type="text" title="성함 입력" id="info-name"
+                            style="width:349px;" name="info-name" maxlength="10"
+                            required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="info-tel">휴대폰</label></th>
+                        <td>
+                            <input type="text" title="연락처 입력" id="info-tel"
+                            style="width:105px;" name="info-tel" maxlength="4"
+                            required> -
+                            
+                            <input type="text" title="연락처 입력" id="info-tel2"
+                            style="width:105px;" name="info-tel2" maxlength="4"
+                            required> -
+
+                            <input type="text" title="연락처 입력" id="info-tel3"
+                            style="width:105px;" name="info-tel3" maxlength="4"
+                            required>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="info-email">이메일</label></th>
+                        <td>
+                            <input type="text" title="이메일 입력" id="info-email"
+                            style="width:167px;" name="info-email" maxlength="25"
+                            required> @
+
+                            <input type="text" title="이메일 입력" id="info-email2"
+                            style="width:167px;" name="info-email2" maxlength="25"
+                            required>&nbsp;
+
+                            <select name="email" id="">
+                                <option value="">직접입력</option>
+                                <option value="naver.com">naver.com</option>
+                                <option value="gmail.com">gmail.com</option>
+                                <option value="nate.com">nate.com</option>
+                                <option value="hotmail.com">hotmail.com</option>
+                                <option value="dreamwiz.com">dreamwiz.com</option>
+                                <option value="freechal.com">freechal.com</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="info-company">업체명</label></th>
+                        <td>
+                            <input type="text" title="업체명 입력" id="info-company"
+                            style="width:680px;" name="info-company" maxlength="50"
+                            required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="info-cnt">인원수</label></th>
+                        <td>
+                            <input type="text" title="인원수 입력" id="info-cnt"
+                            style="width:680px;" name="info-cnt" maxlength="50"
+                            required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="info-date">행사일시</label></th>
+                        <td>
+                            <input type="text" title="행사일자 입력" id="info-date"
+                            style="width:680px;" name="info-date" maxlength="50"
+                            required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th id="lastbox"><label for="info-cntnt">내용</label></th>
+                        <td>
+                            <textarea title="내용 입력" id="info-cntnt"
+                            style="width:680px;" name="info-cntnt" maxlength="300"
+                            required cols="45" rows="10"></textarea>
+                        </td>
+                    </tr>
+                </table>
+                
+                <div class="bsh-last-info">
+                    <h2>개인정보 수집 및 이용에 대한 동의</h2>
+                    <div class="bsh-iframe">
+                        <iframe src="/KH_예약/프로젝트html/약관동의.html" width="920px" height="200px"></iframe>
+                    </div>
+                    <div class="bsh-agree">
+                        <label><input type="checkbox"> 개인정보 수집 및 이용에 대한 동의하기</label>
+                    </div>
+                </div>
+                <div class="bsh-btn">
+                    <input type="submit" name="sub" class="bsh-btn-gray" value="등록하기">
+                    <a href="https://www.hiddencliff.kr/main/main.html" class="bsh-btn-white">취소</a>
+                </div>
+            </form>
+        </div>
+        
+        <div class="bsh-gotop" onclick="gotop();return false;">
+            <a class="bsh-gotop-btn" style="top: -49px;">TOP</a>
+        </div>
+
+    </div>
+    
+    
     <div class="footer-area">include-foot</div>
 </body>
 </html>
