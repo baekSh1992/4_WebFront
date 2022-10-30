@@ -200,7 +200,7 @@ footer{
 
 #footer-first{
     background-color: rgb(61, 61, 61);
-    margin-top: 65px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -280,10 +280,9 @@ footer{
 }
 
 #footer-middle{
-
+    margin: 0 auto;
     width: 1400px;
     display:flex;
-    margin: 0 auto;
     justify-content: center;
     /* justify-content: space-between; */
     position:relative;
@@ -377,11 +376,29 @@ footer{
 /******************************* 위에는 헤더/푸터 ********************************/
 
 
-#head-img{
+#head-img1{
     width: 100%;
     height: 185px;
     background-attachment: fixed;
-    background-image: url(/images/visual_meeting.jpg);
+    background-image: url(/images/visual_kids.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0px;
+}
+#head-img2{
+    width: 100%;
+    height: 185px;
+    background-attachment: fixed;
+    background-image: url(/images/visual_fitness.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0px;
+}
+#head-img3{
+    width: 100%;
+    height: 185px;
+    background-attachment: fixed;
+    background-image: url(/images/visual_trail.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     margin: 0px;
@@ -435,21 +452,21 @@ footer{
     height: 550px;
     /* border: 1px solid red; */
     margin: 0 auto 60px;
-    background-image: url(/images/symphony2.jpg);
+    background-image: url(/images/kiz1.jpg);
 }
 .bsh-main-img2{
     width: 1000px;
     height: 550px;
     /* border: 1px solid red; */
     margin: 0 auto 60px;
-    background-image: url(/images/harmony1.jpg);
+    background-image: url(/images/fitness2.jpg);
 }
 .bsh-main-img3{
     width: 1000px;
     height: 550px;
     /* border: 1px solid red; */
     margin: 0 auto 60px;
-    background-image: url(/images/opus2.jpg);
+    background-image: url(/images/trail2.jpg);
 }
 
 .bsh-main-content{
@@ -460,33 +477,13 @@ footer{
     font-family: 'Noto Sans KR', sans-serif;
 }
 
-.bsh-btngroup{
-    margin: 60px auto 0;
-    width: 1000px;
-    height: 58px;
-    /* border: 1px solid black; */
-    font-family: 'Noto Sans KR', sans-serif;
-}
-
-a.bsh-btngray{
-    display: inline-block;
-    width: 210px;
-    height: 58px;
-    background: #333333;
-    font-size: 17px;
-    line-height: 60px;
-    /* font-family: 'nSquare'; */
-    color: #fff;
-    text-align: center;
-    transition: all 0.3s ease;
-}
-
 .bsh-tb1{
     /* border: 1px solid red; */
     width: 1000px;
     height: 145px;
-    margin: 60px auto 0;
+    margin: 30px auto 0;
 }
+
 
 .bsh-tb1-info .bsh-padding-cell {
     border-bottom: 0;
@@ -501,7 +498,7 @@ a.bsh-btngray{
 
 .bsh-tb1-info td {
     padding: 20px 0 18px 35px;
-    border-bottom: 1px solid #c9c9c9;
+    /* border-bottom: 1px solid #c9c9c9; */
     background: #fff;
     line-height: 1.7;
 }
@@ -510,10 +507,18 @@ a.bsh-btngray{
     border-bottom: 0;
 }
 
-.bsh-tb1-info td.bsh-padding-cell2 {
+.concell1{
+    border-top: 2px solid black;
+}
+.concell3{
+    border-bottom: 1px solid #c9c9c9;
+}
+    
+
+
+.bsh-tb1-info{
     border-bottom: 0;
     padding: 5px 0;
-    border-bottom: 1px solid #c9c9c9;
 }
 
 .bsh-tb1-info td {
@@ -536,9 +541,6 @@ a.bsh-btngray{
     font-family: 'Noto Sans KR', sans-serif;
 }
 
-.bsh-padding-cell{
-    border-top: 2px solid black;
-}
 
 th, td {
     text-align: left;
@@ -550,33 +552,34 @@ th, td {
 
 .bsh-tb2-info{
     width: 1000px;
-    margin: 65px auto;
+    height: 205px;
+    margin: 0 auto;
     /* border: 1px solid red; */
-    border-top: 2px solid black;
+    /* border-top: 2px solid black; */
+    /* border-bottom: 1px solid #c9c9c9; */
 }
 
 
 
 .bsh-tb2 th{
-    border-bottom: 1px solid #c9c9c9;
-    font-size: 16px;
-    color: #111;
-    letter-spacing: -1px; 
+    padding: 10px 0 0 40px;
+    /* padding-left: 40px; */
+    margin-bottom: 20px;
+    font-size: 17px;
+    letter-spacing: -1px;
     font-weight: 400;
-    padding: 10px 0;
-    text-align: center;
-    position: relative;
-    line-height: 1.6;
     font-family: 'Noto Sans KR', sans-serif;
+    border-bottom: 1px solid #c9c9c9;
 }
 
 .bsh-tb2 td {
     border-bottom: 1px solid #c9c9c9;
-    text-align: center;
-    padding: 10px 0;
+    color: #333;
+    text-align: left;
+    padding: 20px 0 18px 35px;
     font-size: 14px;
     color: #7a7a7a;
-    line-height: 1.6;
+    line-height: 1.7;
     font-family: 'Noto Sans KR', sans-serif;
 }
 
