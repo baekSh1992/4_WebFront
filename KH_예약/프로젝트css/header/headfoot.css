@@ -9,10 +9,16 @@
 
     }
 
+    #header{
+        background-color: white;
+    }
+
 #header>div{
     width:1000px;
     height:110px;
     margin:auto; 
+
+  
 
     /* justify-content: center; */
     /* align-items: center; */
@@ -27,6 +33,7 @@
 #header-top-menu{
     position:relative;
 
+/* background-color: red; */
     left:86%;
     top:-90%;
     
@@ -61,7 +68,7 @@
 
 /********************* #nav-area **********************/
 #nav-area{
-   
+   width: 100%;
    height:60px;
 
    border-bottom: 1px solid black;
@@ -155,7 +162,36 @@
     margin-bottom: 5px;
 }
 
-/* ***************** 여기까지 헤더 ***************** */
+
+#header-top-btn{
+    position: fixed;
+    bottom: 0;
+    left:73%;
+
+    height:50px;
+    width: 50px;
+    background-color: rgba(81, 81, 81, 0.627);
+
+    
+}
+
+#header-top-btn>a{
+    text-decoration: none;
+    color:white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#header-top-btn>a>i{
+    font-size: 30px;
+}
+
+
+
+
 
 
 /* ************ footer ************* */
@@ -172,7 +208,6 @@ footer{
 
 #footer-first{
     background-color: rgb(61, 61, 61);
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -253,7 +288,7 @@ footer{
 
 #footer-middle{
 
-    width: 1400px;
+    width: 100%;
     display:flex;
 
     justify-content: center;

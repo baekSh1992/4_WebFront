@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Noto+Sans+KR&display=swap');
+
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 
@@ -61,7 +66,7 @@
     height: 83px;
     padding: 18px 0 0;
     font-size: 33px;
-    /* font-family: 'Nanum Myeongjo'; */
+    font-family: 'Nanum Myeongjo';
     letter-spacing: -1px;
     vertical-align: middle;
     font-weight: 200;
@@ -250,11 +255,18 @@ a.bsh-btn-white{
     height: 58px;
     text-align: center;
     font-size: 17px;
-    transition: all 0.3s ease;
-    transition-property: all;
+}
+
+a.bsh-btn-white:hover{
     transition-duration: 0.3s;
     transition-timing-function: ease;
     transition-delay: 0s;
+    transition-property: all;
+
+    border: 2px solid #b3b3b3;
+    background: #fff;
+    line-height: 56px;
+    color: #333333;
 }
 
 .bsh-gotop-btn {
@@ -299,7 +311,7 @@ a.bsh-btn-white{
 
 
 
-.footer-area{
+/* .footer-area{
     display: flex;
     width: 100%;
     height: 821.36px;
@@ -309,4 +321,4 @@ a.bsh-btn-white{
     justify-content: flex-end;
     justify-content: center;
     align-items: center;
-}
+} */

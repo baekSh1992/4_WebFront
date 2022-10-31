@@ -454,7 +454,7 @@ footer{
 
 .bsh-main-content{
     width: 1000px;
-    height: 76.78px;
+    height: 51.78px;
     /* border: 1px solid blue; */
     margin: 0 auto;
     font-family: 'Noto Sans KR', sans-serif;
@@ -472,13 +472,20 @@ a.bsh-btngray{
     display: inline-block;
     width: 210px;
     height: 58px;
-    background: #333333;
+    background: #231f20;
     font-size: 17px;
     line-height: 60px;
     /* font-family: 'nSquare'; */
     color: #fff;
     text-align: center;
-    transition: all 0.3s ease;
+    transition-timing-function: ease;
+    transition-duration: 0.3s;
+    transition-delay: 0s;
+    transition-property: all;
+}
+
+a.bsh-btngray:hover{
+    background-color: rgb(95, 92, 92)
 }
 
 .bsh-tb1{
