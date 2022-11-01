@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01_JS 개요</title>
+
+    <style>
+        #box{
+            margin-top: 10px;
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>스크립트(Script) 언어</h1>
+    <pre>
+        자바와는 연관성이 하나도 없다. (성만 같고 다른 이름)
+        자바 = 코드 -> 컴파일 -> 실행
+
+        스크립트 언어
+        = 기본 프로그램의 동작을 사용자의 요구에 맞게 수행되도록 해주는 용도의 언어
+
+        별도의 컴파일을 진행하지 않고 
+        인터프리터(interpreter)를 이용하여 소스코드를 한 줄씩 읽어 바로 실행
+        (직독직해 = 한 줄 읽고, 한 줄 해석...반복)
+        -> 때문에 컴파일에 소요되는 시간이 없음.
+           단, 프로그램 실행 시간이 느리다. (그때 그때 읽어서 해석하기 때문)
+    </pre>
+
+    <hr>
+
+    <h1>Javascript 란?</h1>
+    <pre>
+        웹 브라우저에서 많이 사용하는 인터프리터 방식의 객체 지향 프로그래밍 언어
+
+        ECMA Script 표준을 따르는 대표적인 웹 기술이다.
+    </pre>
+
+    <hr>
+
+    <h1>자바스크립트 코드 작성법(4가지)</h1>
+    <ul>
+        <li>브라우저 콘솔에 직접 작성(웹에서 개발자모드 > 콘솔)</li>
+
+        <li>태그에 직접 JS 코드를 작성(inline방식)</li>
+
+        <li>html 내부에 script 태그를 이용하여 작성(internal)</li>
+
+        <li>[★] html 외부에 파일(.js)을 이용해서 작성(external)</li>
+    </ul>
+
+    <!-- inline 방식 -->
+    <button type="button" onclick="alert('태그에 직접 JS 코드를 작성(inline방식)')">inline 방식</button>
+
+    <!-- internal 방식 -->
+    <button type="button" onclick="btnClick1()">internal 방식 1번</button>
+    <button type="button" id="btn2">internal 방식 2번</button>
+
+    <!-- external 방식 -->
+    <button tabindex="button" onclick="btnClick3()">external 방식</button>
+
+    <div id="box"></div>
+    <button type="button" onclick="changeColor1()">red</button>
+    <button type="button" onclick="changeColor2()">yellow</button>
+
+
+
+    <!-- 
+        script 태그의 위치
+        - head / body 태그 어디든지 작성 가능(단, 위치에 따라 화면 로딩 시간에 관여
+                                                -> 보통 바디태그 맨밑에 작성)
+        - head 태그 내부에 작성하는 경우
+        -> 페이지 랜더링 시 수행되어야 하는 기능이 있을 경우
+
+        - 나머지는 다 body 태그 마지막 부분에 작성하여
+            화면 먼저 랜더링 되도록 함(JS 코드를 나중에 해석)
+
+     -->
+    <script>
+        // script 태그 내부는 JS를 작성하는 영역
+        // -> JS 문법 / 주석 사용
+
+        // 한 줄 주석
+        /* 범위 주석 */
+
+        function btnClick1(){
+            alert("internal 버튼 1번이 클릭되었습니다.");
+        }
+
+
+        // id가 "btn2"인 요소가 클릭되었을 때 기능을 수행하는 코드
+        // == 고전 이벤트 모델 ( 잘 사용 하지 않음 )
+        document.getElementById("btn2").onclick = function(){
+            alert("internal 버튼 2번이 클릭되었습니다.");
+        }
+    </script>
+
+
+    <!-- 외부 js 파일 추가 -->
+    <script src="../js/01_JS개요.js"></script>
+
+</body>
+</html>
