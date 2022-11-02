@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Noto+Sans+KR&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.bsh-main{
+    border: 1px solid red;
+    width: 100%;
+    height: 1954px;
+    min-width: 1000px;
+    min-height: 500px;
+}
+/* .content {
+    width: 100%;
+    min-width: 1000px;
+    min-height: 500px;
+} */
+
+#head-img {
+    width: 100%;
+    height: 185px;
+    background-attachment: fixed;
+    background-image: url(/images/visual_예약하기\ 상단.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0px;
+}
+
+.bsh-path{
+    justify-content: flex-start;
+    /* border: 1px solid green; */
+    width: 1000px;
+    height: 50px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #767676;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    
+}
+
+.bsh-path li{
+    justify-content: flex-start;
+    display: inline-block;
+    /* float: left; */
+    /* padding: 0 8px 0 0; */
+    font-size: 13px;
+    color: #767676;
+    /* opacity: 0; */
+    padding-right: 8px;
+}
+
+.bsh-main-title h1{
+    /* border: 1px solid red; */
+    width: 1000px;
+    margin: 0 auto;
+    height: 83px;
+    padding: 18px 0 0;
+    font-size: 33px;
+    font-family: 'Nanum Myeongjo';
+    letter-spacing: -1px;
+    vertical-align: middle;
+    font-weight: 300;
+}
+
+.bsh-stepbox{
+    /* border: 1px solid red; */
+    width: 1000px;
+    height: 59px;
+
+
+    position: relative;
+    margin: 20px auto 0px;
+    background: #fff;
+    border-bottom: 1px solid #4e4e4e;
+}
+
+.bsh-stepbox ul li span {
+    display: block;
+    /* font-family: 'nSquare'; */
+    font-size: 12px;
+    color: #bbb;
+    font-weight: 400;
+}
+
+.bsh-stepbox ul li {
+    float: left;
+    position: relative;
+    width: 20%;
+    font-size: 15px;
+    color: #777;
+    font-weight: 500;
+    padding: 0 0 20px 20px;
+    line-height: normal;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.bsh-stepbox ul li.bsh-on:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 3px;
+    background: #333;
+}
+
+.bsh-stepbox ul li:nth-child(n+2):before {
+    content: "";
+    position: absolute;
+    left: -9px;
+    top: 12px;
+    width: 9px;
+    height: 16px;
+    background: url(/images/step_화살표.png) 0 0 no-repeat;
+}
+
+.bsh-sub-section{
+    border: 1px solid red;
+    width: 1000px;
+    height: 1500px;
+    margin: 60px auto 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.bsh-promotionlist>ul>li .bsh-item .bsh-img {
+    height: 171px;
+    float: left;
+    width: 230px;
+    padding-bottom: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.bsh-promotionlist>ul>li .bsh-item .bsh-cont {
+    float: left;
+    width: 480px;
+    line-height: 22px;
+    padding-bottom: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.bsh-promotionlist>ul>li .bsh-item .bsh-cont strong {
+    font-size: 21px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 18px;
+    display: block;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.bsh-promotionlist>ul>li .bsh-item .bsh-cont .bsh-txt {
+    font-size: 13px;
+    color: #666;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.bsh-promotionlist>ul>li .bsh-item .bsh-cont span{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+ul.bsh-hidelist{
+    border-top: 1px solid #ddd;
+    padding: 5px 0;
+}
+
+ul.bsh-hidelist>li .bsh-tit {
+    display: block;
+    padding: 10px;
+    font-weight: 500;
+    color: #333;
+}
+
+ul.bsh-hidelist>li .bsh-priceitem ul li .bsh-view {
+    float: left;
+    width: 115px;
+    color: #666;
+    padding: 4px 0;
+}
+
+ul.bsh-hidelist>li .bsh-priceitem ul li span {
+    display: block;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+ul.bsh-hidelist>li .bsh-priceitem ul li {
+    margin-bottom: 10px;
+}
+
+
+
+
+/* 오른쪽 메뉴 */
+
+.bsh-RightBar{
+    border: 1px solid red;
+    right: 50%;
+    width: 260px;
+    height: 341px;
+    margin-left: 500px;
+    box-sizing: border-box;
+    z-index: 100;
+}
