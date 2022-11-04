@@ -11,9 +11,9 @@
 }
 
 .bsh-main{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 100%;
-    height: 1954px;
+    height: 1700px;
     min-width: 1000px;
     min-height: 500px;
 }
@@ -125,15 +125,21 @@
 }
 
 .bsh-sub-section{
-    border: 1px solid red;
+    border: 1px solid blue;
     width: 1000px;
-    height: 1500px;
+    height: 1125px;
     margin: 60px auto 0;
     font-family: 'Noto Sans KR', sans-serif;
 }
 
+/* .bsh-leftbox{
+    border: 1px solid red;
+    width: 710px;
+    height: 1123px;
+} */
+
 .bsh-promotionlist>ul>li .bsh-item .bsh-img {
-    height: 171px;
+    height: 175px;
     float: left;
     width: 230px;
     padding-bottom: 20px;
@@ -142,7 +148,7 @@
 
 .bsh-promotionlist>ul>li .bsh-item .bsh-cont {
     float: left;
-    width: 480px;
+    width: 478px;
     line-height: 22px;
     padding-bottom: 20px;
     font-family: 'Noto Sans KR', sans-serif;
@@ -167,24 +173,57 @@
     display: block;
 }
 
+.bsh-promotionlist>ul>li .roomSelect {
+    background: #fff;
+    font-size: 14px;
+    margin-bottom: 11px;
+}
 
+.bsh-plz{
+    width: 710px;
+    height: 334px;
+    /* border: 1px solid red; */
+    /* display: inline-block */
+}
 
+.bsh-promotionlist>ul>li .bsh-roomselect {
+    background: #fff;
+    font-size: 14px;
+    margin-bottom: 11px;
+}
 
+.bsh-tit {
+    /* border-top: 1px solid #ddd; */
+    /* padding: 5px 0; */
+}
 
+ul:after, dl:after {
+    content: "";
+    clear: both;
+    display: block;
+}
 
-
-
-
-ul.bsh-hidelist{
-    border-top: 1px solid #ddd;
-    padding: 5px 0;
+ul.bsh-hidelist>li {
+    float: left;
+    width: 325px;
+    /* height: 160px; */
+    background: #fff;
+    margin: 0 0 0px 20px;
 }
 
 ul.bsh-hidelist>li .bsh-tit {
     display: block;
-    padding: 10px;
-    font-weight: 500;
+    padding: 15px 10px 10px;
+    font-weight: 600;
     color: #333;
+}
+
+ul.bsh-hidelist>li .bsh-priceitem {
+    padding: 10px;
+}
+
+ul.bsh-hidelist>li .bsh-priceitem ul li {
+    margin-bottom: 10px;
 }
 
 ul.bsh-hidelist>li .bsh-priceitem ul li .bsh-view {
@@ -194,27 +233,195 @@ ul.bsh-hidelist>li .bsh-priceitem ul li .bsh-view {
     padding: 4px 0;
 }
 
-ul.bsh-hidelist>li .bsh-priceitem ul li span {
-    display: block;
+.bsh-cont{
+    border-bottom: 1px solid #ddd;
+}
+
+.bsh-img{
+    border-bottom: 1px solid #ddd;
+    height: 175px;
+}
+
+ul.bsh-hidelist>li .bsh-priceitem ul li .bsh-price {
+    float: left;
+    font-weight: 600;
+    color: #333;
+    padding: 2px 0;
+    font-size: 15px;
+}
+
+ul.bsh-hidelist>li .bsh-priceitem ul li .bsh-btn {
+    float: right;
+}
+
+ul.bsh-hidelist>li .bsh-btn {
+    width: auto;
+    height: auto;
+    padding: 5px 30px;
     font-size: 13px;
-    vertical-align: middle;
+    line-height: normal;
+    margin-left: 0;
+}
+
+a.bsh-btn.bsh-blue {
+    background: #8c8c8c;
+    color: #fff;
 }
 
 ul.bsh-hidelist>li .bsh-priceitem ul li {
     margin-bottom: 10px;
 }
 
-
-
-
-/* 오른쪽 메뉴 */
-
-.bsh-RightBar{
-    border: 1px solid red;
-    left: -50%;
-    width: 260px;
-    height: 341px;
-    margin-left: 500px;
-    box-sizing: border-box;
-    z-index: 100;
+.bsh-promotionlist>ul>li {
+    border-bottom: 1px solid #333;
+    padding-top: 0px;
+    margin-bottom: 40px;
 }
+
+
+
+
+
+
+
+/* 라이트 빠 */
+
+.RightBar{
+    width: 260px;
+    height: 220px;
+    /* height: 341px; */
+    /* border: 1px solid red; */
+    /* box-sizing: border-box; */
+    z-index: 100;
+    /* position: relative; */
+    /* position: fixed; */
+    position: sticky;
+}
+
+ul.summary li .bsh-tit {
+    padding: 10px 15px;
+    font-weight: 600;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    background: #f9f9f9;
+    border-top: 2px solid #333;
+}
+
+ul.summary li .bsh-cont {
+    padding: 15px 13px;
+}
+
+caption {
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999px;
+}
+
+table.normal th {
+    font-size: 13px;
+    font-weight: 400;
+    padding: 5px 0;
+}
+
+label {
+    cursor: pointer;
+}
+
+table.normal.right_box td {
+    text-align: right;
+    padding-right: 16px;
+}
+
+table.normal td {
+    font-size: 13px;
+    font-weight: 400;
+    padding: 5px 0;
+}
+
+table.normal input[type=text] {
+    width: 85%;
+    font-size: 13px;
+    color: #666;
+    padding-left: 5px;
+    border: none;
+}
+
+input {
+    font-weight: 400;
+    height: 28px;
+}
+
+element.style {
+    width: 19px !important;
+    top: 80px;
+    position: sticky;
+}
+
+
+
+.btn_rewind a.btn.powderblue.wid {
+    width: 260px;
+    margin-left: 0;
+    margin-top: 15px;
+}
+
+a.btn.powderblue {
+    border: 1px solid #a4a4a4;
+    background: #fff;
+    line-height: 56px;
+    color: #474747;
+    width: 126px;
+}
+
+a.btn {
+    display: inline-block;
+    margin-left: 4px;
+    width: 210px;
+    height: 58px;
+    background: #231f20;
+    font-size: 17px;
+    line-height: 60px;
+    color: #fff;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+input.w30 {
+    width: 30px !important;
+}
+
+element.style {
+    padding-right: 0;
+}
+
+th, td {
+    text-align: left;
+    vertical-align: middle;
+    word-wrap: break-word;
+    word-break: keep-all;
+}
+
+.btn_rewind a.btn.powderblue.wid {
+    width: 260px;
+    margin-left: 0;
+}
+
+a.btn.powderblue {
+    border: 1px solid #a4a4a4;
+    background: #fff;
+    line-height: 56px;
+    color: #474747;
+}
+
+table img {
+    vertical-align: top;
+}
+
+a.btn.powderblue.wid:hover{
+    background-color: #333030;
+    color: white;
+}
+
