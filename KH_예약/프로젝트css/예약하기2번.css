@@ -278,11 +278,18 @@ ul.bsh-hidelist>li .bsh-priceitem ul li {
     margin-bottom: 40px;
 }
 
+a.bsh-btn.bsh-blue:hover{
+    background-color:rgb(87, 83, 83);
+    transition-duration: 0.3s;
+}
 
 
 
-
-
+.bsh-zzz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* 라이트 빠 */
 
