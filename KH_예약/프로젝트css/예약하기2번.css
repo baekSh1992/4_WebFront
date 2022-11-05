@@ -125,11 +125,12 @@
 }
 
 .bsh-sub-section{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 1000px;
     height: 1125px;
     margin: 60px auto 0;
     font-family: 'Noto Sans KR', sans-serif;
+    /* position: fixed; */
 }
 
 /* .bsh-leftbox{
@@ -301,8 +302,7 @@ a.bsh-btn.bsh-blue:hover{
     /* box-sizing: border-box; */
     z-index: 100;
     /* position: relative; */
-    /* position: fixed; */
-    position: sticky;
+    position: fixed;
 }
 
 ul.summary li .bsh-tit {
