@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 .area {
     width: 500px;
     min-height: 300px;
@@ -13,6 +14,23 @@
 
 .error {
     color: red;
+=======
+.area{
+    width: 500px;
+    min-height: 300px; /* 최소 높이 300px */
+    border: 1px solid black;
+
+}
+
+.confirm{ 
+    color : green;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+.error  { 
+    color : red;  
+>>>>>>> Stashed changes
     font-weight: bold;
     font-family: '궁서';
 }

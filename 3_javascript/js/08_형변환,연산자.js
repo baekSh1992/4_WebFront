@@ -50,6 +50,7 @@ btn3.addEventListener("click", function(){
 })
 
 
+<<<<<<< Updated upstream
 // Math.random()
 document.getElementById("btn4").addEventListener("click", function(){
 
@@ -62,3 +63,13 @@ document.getElementById("btn4").addEventListener("click", function(){
         = "rgb("+r+", "+g+", "+b+")"
 });
 
+=======
+// Math 활용
+const input4 = document.getElementById("input4");
+const btn4 = document.getElementById("btn4");
+
+btn4.addEventListener("click", function(){
+
+    
+})
+>>>>>>> Stashed changes
