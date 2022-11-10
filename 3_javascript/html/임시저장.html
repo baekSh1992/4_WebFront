@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <script>
-        
 
 
 
@@ -24,38 +25,49 @@
 
 
 
-// 1. 이 문서를 처음 로드하면 로그인 화면은 보이지 않는다. id = myForm
-document.getElementById("myForm").style.display = 'none';
 
-// 2.  label 태그는 가로로 80px크기를 갖는다.
-const label = document.getElementsByTagName("label");
-for(let el of label){
+        // 1. 이 문서를 처음 로드하면 로그인 화면은 보이지 않는다. id = myForm
+        document.getElementById("myForm").style.display = 'none';
+        // 2.  label 태그는 가로로 80px크기를 갖는다.
+        const label = document.getElementsByTagName("label");
+        for (let el of label) {
+            el.style.display = 'inline-block';
+            el.style.width = '80px';
+        }
 
-    el.style.display = 'inline-block';
-    el.style.width = '80px';
-}
-// 3. 로그인 버튼을 클릭하면 로그인 화면이 화면이 나타난다. open
-const open = document.querySelectorAll("open")[0];
- open.addEventListener("click", function(){
-    document.getElementById("myForm").style.display = 'block';
- })
-// 4. Close버튼을 클릭하면 로그인 화면이 사라진다. class="close"
-const close = document.getElementsByClassName("cancle")[0];
-close.addEventListener("click",function(){
-    document.getElementById("myForm").style.display = 'none';
-})
+        // 3. 로그인 버튼을 클릭하면 로그인 화면이 화면이 나타난다. open
+        const open = document.querySelectorAll("open")[0];
+        open.addEventListener("click", function () {
+            document.getElementById("myForm").style.display = 'block';
+        })
 
-
-
+        // 4. Close버튼을 클릭하면 로그인 화면이 사라진다. class="close"
+        const close = document.getElementsByClassName("cancle")[0];
+        close.addEventListener("click", function () {
+            document.getElementById("myForm").style.display = 'none';
+        })
 
 
 
 
-
-
-
-
-
+        // 1. 이 문서를 처음 로드하면 로그인 화면은 보이지 않는다. id = myForm
+        document.getElementById("myForm").style.display = 'none';
+        // 2.  label 태그는 가로로 80px크기를 갖는다.
+        const label = document.getElementsByTagName("label");
+        for(let el of label){
+            el.style.display = 'inline-block';
+            el.style.width = '80px';
+        }
+        // 3. 로그인 버튼을 클릭하면 로그인 화면이 화면이 나타난다. open
+        const open = document.querySelectorAll("open")[0];
+        open.addEventListener("click", function(){
+            document.getElementById("myForm").style.display = 'block';
+        })
+        // 4. Close버튼을 클릭하면 로그인 화면이 사라진다. class="close"
+        const close = document.getElementsByClassName("cancle")[0];
+        close.addEventListener("click", function(){
+            document.getElementById("myForm").style.display = 'none';
+        })
 
 
 
@@ -64,4 +76,5 @@ close.addEventListener("click",function(){
 
     </script>
 </body>
+
 </html>
