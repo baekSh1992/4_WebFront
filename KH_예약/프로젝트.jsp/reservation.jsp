@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>예약문의 - Hidden Cliff Hotel and Nature</title>
-    <link rel="stylesheet" href="/KH_예약/프로젝트css/예약문의.css">
+    <link rel="stylesheet" href="/KH_예약/프로젝트css/reservation.css">
     <link rel="stylesheet" href="/KH_예약/프로젝트css/header/headfoot.css">
     <script src="https://kit.fontawesome.com/f7459b8054.js" crossorigin="anonymous"></script>
 </head>
@@ -20,7 +20,7 @@
     <header>
         <div id="header">
             <div id="header-top">
-                <a href="#"><img src="/images/히든클리프 로고.png"></a>
+                <a href="#"><img src="/images/hiddenTopLogo.png"></a>
     
                  <!-- 우측 상단 로그인 예약조회 회원가입 -->
                 <!-- 헤더 오른쪽 상단 메뉴 -->
@@ -326,7 +326,7 @@
         </div>
     </div>
     <div id="footer-last">
-        <img src="/images/히든클리프 푸터 로고.png">
+        <img src="/images/hiddenBottomLogo.png">
 
         <p>제주특별자치도 서귀포시 예래해안로 542 (중문) 예래클리프개발(주)</p>
         <p>(구: 제주특별자치도 서귀포시 상예동 625) 대표이사 : 이병혁</p>

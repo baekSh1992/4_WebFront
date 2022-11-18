@@ -14,7 +14,7 @@
     <title>예약하기 - Hidden Cliff Hotel and Nature</title>
 
     <link rel="stylesheet" href="../프로젝트css/header/headfoot.css">
-    <link rel="stylesheet" href="../프로젝트css/예약하기2번.css">
+    <link rel="stylesheet" href="../프로젝트css/reservation2.css">
 
 </head>
 
@@ -22,7 +22,7 @@
     <header>
         <div id="header">
             <div id="header-top">
-                <a href="#"><img src="/images/히든클리프 로고.png"></a>
+                <a href="#"><img src="/images/hiddenTopLogo.png"></a>
 
                 <!-- 우측 상단 로그인 예약조회 회원가입 -->
                 <!-- 헤더 오른쪽 상단 메뉴 -->
@@ -132,7 +132,7 @@
                                 <li>
                                     <div class="bsh-item">
                                         <div class="bsh-img">
-                                            <img src="/images/예약하기2-1.jpg" title="대표이미지"
+                                            <img src="/images/reserve2-1.jpg" title="대표이미지"
                                                 style="width: 210px; height: 100%; object-fit:cover;" class="bsh-cp">
                                         </div>
                                         <div class="bsh-cont">
@@ -220,7 +220,7 @@
                                 <li>
                                     <div class="bsh-item">
                                         <div class="bsh-img">
-                                            <img src="/images/예약하기2-2.jpg" title="대표이미지"
+                                            <img src="/images/reserve2-2.jpg" title="대표이미지"
                                                 style="width: 210px; height: 100%; object-fit:cover;" class="bsh-cp">
                                         </div>
                                         <div class="bsh-cont">
@@ -288,7 +288,7 @@
                                 <li>
                                     <div class="bsh-item">
                                         <div class="bsh-img">
-                                            <img src="/images/예약하기2-3.jpg" title="대표이미지"
+                                            <img src="/images/reserve2-3.jpg" title="대표이미지"
                                                 style="width: 210px; height: 100%; object-fit:cover;" class="bsh-cp">
                                         </div>
                                         <div class="bsh-cont">
@@ -420,7 +420,7 @@
                                                 <!--<select name="room_child_num" id="room_child_num" class="w06"></select>-->
                                                 <input type="text" name="room_child_num" id="room_child_num" class="w30"
                                                     value="0" readonly="">
-                                                <p class="age_info ageguide_tip"><a href="#"><img src="/images/i이미지.gif"
+                                                <p class="age_info ageguide_tip"><a href="#"><img src="/images/iimage.gif"
                                                             alt="상세정보보기" style="filter:grayscale(1);"></a></p>
                                             </td>
                                         </tr>
@@ -520,7 +520,7 @@
         </div>
     </div>
     <div id="footer-last">
-        <img src="/images/히든클리프 푸터 로고.png">
+        <img src="/images/hiddenBottomLogo.png">
 
         <p>제주특별자치도 서귀포시 예래해안로 542 (중문) 예래클리프개발(주)</p>
         <p>(구: 제주특별자치도 서귀포시 상예동 625) 대표이사 : 이병혁</p>

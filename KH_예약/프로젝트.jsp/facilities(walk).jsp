@@ -13,7 +13,7 @@
     <title>히든 트레일 - Hidden Cliff Hotel and Nature</title>
 
     <link rel="stylesheet" href="/KH_예약/프로젝트css/header/headfoot.css">
-    <link rel="stylesheet" href="/KH_예약/프로젝트css/header/편의시설공통.css">
+    <link rel="stylesheet" href="/KH_예약/프로젝트css/header/facilities(all).css">
     <script src="https://kit.fontawesome.com/f7459b8054.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -44,7 +44,7 @@
 
         <section>
             <a href="#">
-                <img src="/images/히든클리프 로고.png" id="home-logo">
+                <img src="/images/hiddenTopLogo.png" id="home-logo">
             </a>
         </section>
 
@@ -240,7 +240,7 @@
         </div>
     </div>
     <div id="footer-last">
-        <img src="/images/히든클리프 푸터 로고.png">
+        <img src="/images/hiddenBottomLogo.png">
 
         <p>제주특별자치도 서귀포시 예래해안로 542 (중문) 예래클리프개발(주)</p>
         <p>(구: 제주특별자치도 서귀포시 상예동 625) 대표이사 : 이병혁</p>
